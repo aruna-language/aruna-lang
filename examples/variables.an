@@ -1,0 +1,10 @@
+// PROVISIONAL syntax: placeholder vocabulary, not Madurese.
+let name = "Aruna"          // immutable, inferred as string
+var count = 1               // mutable, inferred as int
+let ratio: float = 2.5      // explicit type
+count = count + 2
+print name + " v" + str(count)
+print ratio * 2.0
+print 7 / 2                 // integer division -> 3
+print 7 % 2
+print (1 + 2) * 3 == 9 && !false

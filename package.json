@@ -1,0 +1,11 @@
+{
+  "name": "aruna-lang",
+  "version": "0.1.0",
+  "description": "Aruna Programming Language — early preview. Programming with Identity.",
+  "type": "module",
+  "bin": { "aruna": "cli/aruna.js" },
+  "engines": { "node": ">=18" },
+  "scripts": { "test": "node --test", "start": "node cli/aruna.js" },
+  "keywords": ["programming-language", "interpreter", "aruna"],
+  "author": "Iky Dev"
+}

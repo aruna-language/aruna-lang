@@ -1,0 +1,6 @@
+// This file is INTENTIONALLY invalid. `aruna check` should report errors.
+let count = 1
+let ratio = 2.5
+print count + ratio
+let n = to_int("5")
+print n + 1

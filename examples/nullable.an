@@ -1,0 +1,11 @@
+// PROVISIONAL syntax: placeholder vocabulary, not Madurese.
+// to_int returns int?, so the result must be handled explicitly.
+let a = to_int("42")
+let b = to_int("not a number")
+
+print a ?? 0
+print b ?? -1
+
+if a != null {
+  print a + 1       // a is narrowed from int? to int inside this block
+}

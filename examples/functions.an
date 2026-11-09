@@ -1,0 +1,14 @@
+// PROVISIONAL syntax: placeholder vocabulary, not Madurese.
+fn factorial(n: int): int {
+  if n <= 1 {
+    return 1
+  }
+  return n * factorial(n - 1)
+}
+
+fn greet(who: string) {
+  print "Hello, " + who + "!"
+}
+
+greet("Aruna")
+print factorial(10)

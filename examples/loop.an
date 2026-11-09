@@ -1,0 +1,8 @@
+// PROVISIONAL syntax: placeholder vocabulary, not Madurese.
+var i = 1
+var total = 0
+while i <= 5 {
+  total = total + i
+  i = i + 1
+}
+print "sum of 1..5 = " + str(total)
